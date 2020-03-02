@@ -1,0 +1,500 @@
+@font-face {
+  font-family: "painter";
+  font-style: normal;
+  /* font-weight: 400; */
+  src: url("./assets/fonts/Painter_PERSONAL_USE_ONLY.ttf"); /* IE9 Compat Modes */
+}
+
+@font-face {
+  font-family: "Muli";
+  font-style: normal;
+  /* font-weight: 400; */
+  src: url("./assets/fonts/Muli-SemiBold.ttf"); /* IE9 Compat Modes */
+}
+
+@font-face {
+  font-family: "Muli Light";
+  font-style: normal;
+  /* font-weight: 400; */
+  src: url("./assets/fonts/Muli-Light.ttf"); /* IE9 Compat Modes */
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+.main {
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+.jumbo-img {
+  width: 100%;
+  height: 30%;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  flex-wrap: wrap;
+  z-index: 999;
+  left: 0;
+  right: 0;
+  top: 0;
+  padding: 10px;
+}
+
+.brand {
+  font-size: 36px;
+  font-family: "painter";
+  color: #452268;
+  margin-left: 90px;
+}
+
+.menu {
+  font-size: 16px;
+  color: #452268;
+  align-self: center;
+  margin-left: 10em;
+}
+
+.menu-link {
+  text-decoration: none;
+  color: #abadae;
+  font-family: "Muli";
+  padding: 10px;
+}
+
+.active {
+  color: #0a4065;
+}
+
+.jumbo-img-text-wrapper {
+  width: 50%;
+  position: absolute;
+  z-index: 999;
+  left: 0;
+  right: 0;
+  top: 400px;
+  padding: 10px;
+  margin-left: 90px;
+}
+
+.jumbo-img-text-1 {
+  font-family: "Muli Light";
+  font-size: 57px;
+  color: #255a7e;
+}
+
+.jumbo-img-text-2 {
+  font-family: "Muli";
+  font-size: 16px;
+  color: #0c3653;
+  margin-top: 50px;
+}
+
+.jumbo-img-btn-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 60px;
+}
+
+.jumbo-img-btn {
+  background-color: #f98169;
+  color: #ffffff;
+  padding: 20px 40px;
+  border-style: none;
+  box-shadow: 0 9px 18px 0 rgba(249, 129, 105, 0.9);
+}
+
+.jumbo-img-action-text {
+  font-family: "Muli";
+  font-size: 16px;
+  margin: 0 20px;
+  align-self: center;
+}
+
+.jumbo-img-btn-2 {
+  width: 60px;
+  height: 60px;
+  background-color: #f98169;
+  box-shadow: 0 9px 18px 0 rgba(249, 129, 105, 0.9);
+  color: #ffffff;
+  padding: 15px;
+  border-style: none;
+  border-radius: 30px;
+  align-self: center;
+}
+
+.content-wrapper {
+  background-image: url(./assets/images/content-background.png);
+  width: 100%;
+  /* height: 700px; */
+  margin: 0;
+  /* filter: blur(4px);
+  -webkit-filter: blur(4px); */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.mask-layer {
+  background-color: rgba(255, 255, 255, 0.95);
+  height: 100%;
+}
+
+.inner-content {
+  background-color: rgba(255, 255, 255, 0.95);
+  height: 100%;
+  padding: 130px 0 30px 30px;
+}
+
+.content-img-1 {
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 80px;
+  border-bottom-right-radius: 80px;
+  box-shadow: 0 9px 18px 0 rgba(197, 201, 203, 0.9);
+  object-fit: cover;
+}
+
+.img-wrapper {
+  width: 28%;
+  height: 650px;
+}
+
+.more {
+  width: 40%;
+  align-self: center;
+}
+
+.more-text-1 {
+  font-family: Georgia;
+  font-size: 36px;
+  margin-bottom: 25px;
+  color: #0c3653;
+}
+
+.more-text-2 {
+  font-family: "Muli";
+  font-size: 16px;
+  margin-bottom: 25px;
+  color: #8b8e8f;
+}
+
+.jumbo-img-btn-3 {
+  font-family: "Muli";
+  background-color: #f98169;
+  color: #ffffff;
+  padding: 20px 40px;
+  border-style: none;
+  box-shadow: 0 9px 18px 0 rgba(249, 129, 105, 0.9);
+  font-size: 16px;
+  margin: 20px 0;
+}
+
+.more-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-evenly;
+  margin: 140px 0;
+}
+
+.vid-section {
+  width: 70%;
+  margin: auto;
+  background-image: url(./assets/images/video-section.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.vid-section-mask {
+  background-color: rgba(5, 54, 88, 0.4);
+  height: 100%;
+  /* padding: 130px 0 30px 30px; */
+  border-radius: 10px;
+}
+
+.vid-section-writeup {
+  margin: auto;
+  width: 70%;
+  padding-top: 120px;
+  align-items: center;
+  text-align: center;
+}
+
+.vid-section-text {
+  font-family: Georgia;
+  font-weight: 400;
+  font-size: 36px;
+  color: #ffffff;
+}
+
+.vid-section-text-2 {
+  font-family: "Muli";
+  font-weight: 200;
+  font-size: 12px;
+  color: #ffffff;
+  padding: 40px 80px;
+  letter-spacing: 2px;
+}
+
+.vid-section-btn {
+  width: 60px;
+  height: 60px;
+  background-color: rgba(255, 255, 255, 0.01);
+  color: #ffffff;
+  padding: 15px;
+  border-radius: 30px;
+  align-self: center;
+  border-color: #ffffff;
+  border-width: 1px;
+}
+
+.explore-header-section {
+  width: 70%;
+  margin: auto;
+}
+
+.explore-header-section-writeup {
+  margin: auto;
+  width: 70%;
+  padding-top: 120px;
+  align-items: center;
+  text-align: center;
+}
+
+.explore-header-section-text {
+  font-family: Georgia;
+  font-weight: 400;
+  font-size: 36px;
+  /* color: #ffffff; */
+}
+
+.explore-header-section-text-2 {
+  font-family: "Muli";
+  /* font-weight: 200; */
+  font-size: 12px;
+  color: #aeb2b4;
+  padding: 40px 80px;
+  letter-spacing: 2px;
+}
+
+.explore-header-section-btn {
+  width: 60px;
+  height: 60px;
+  background-color: rgba(255, 255, 255, 0.01);
+  /* color: #ffffff; */
+  padding: 15px;
+  border-radius: 30px;
+  align-self: center;
+  border-color: #ffffff;
+  border-width: 1px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  /* grid-template-rows: 100px 100px 100px;  */
+  grid-column-gap: 25px;
+  grid-row-gap: 25px;
+  width: 70%;
+  margin: auto;
+}
+
+.explore-food-card {
+  width: 100%;
+  height: 350px;
+  box-shadow: 0 9px 18px 0 rgba(235, 241, 245, 0.9);
+  margin: 10px;
+  background-color: #ffffff;
+  border-radius: 15px;
+}
+
+.explore-food-card-img {
+  width: 100%;
+  height: 60%;
+  border-radius: 15px 15px 0 0;
+  object-fit: cover;
+}
+
+.explore-food-card-body {
+  width: 90%;
+  margin: auto;
+  padding: 15px;
+}
+
+.explore-food-card-body-title {
+  font-family: Georgia;
+  font-size: 18px;
+  color: #0c3653;
+  align-self: "center";
+}
+
+.explore-food-card-body-desc {
+  margin: 20px 0;
+  font-family: "Muli Light";
+  font-size: 12px;
+  color: #aeb2b4;
+}
+
+.explore-food-card-body-price {
+  color: #f98169;
+  font-family: Georgia;
+  font-size: 25px;
+  font-weight: bold;
+  align-self: "center";
+}
+
+.explore-food-card-body-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.recipes-wrapper {
+  overflow: auto;
+  white-space: nowrap;
+}
+
+.recipes-card {
+  width: 50%;
+}
+
+.recipe-food-card-inner-container {
+  display: inline-flex;
+  flex-direction: row;
+}
+
+.recipe-food-card {
+  width: 380px;
+  height: 320px;
+  box-shadow: 0 9px 18px 0 rgba(235, 241, 245, 0.9);
+  margin: 10px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  flex-grow: 1;
+}
+
+.recipe-food-card:hover {
+  cursor: pointer;
+}
+
+.recipes-card-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  object-fit: cover;
+}
+
+.newsletter-section {
+  width: 80%;
+  height: 450px;
+  margin: 80px auto;
+  background-color: #ffffff;
+}
+
+.newsletter-section-content {
+  /* position: absolute; */
+  margin: -25px auto;
+  padding: 20px;
+  width: 85%;
+  height: 250px;
+  top: 10;
+  z-index: 999;
+  background-color: #ffffff;
+  /* padding-top: 120px; */
+  box-shadow: 0 9px 18px 0 rgba(235, 241, 245, 0.9);
+  align-items: center;
+  text-align: center;
+}
+
+.img-wrapper-recipe {
+  width: 150px;
+  height: 150px;
+  z-index: 10;
+}
+
+.newsletter-section-content-img {
+  width: 100%;
+  height: 100%;
+}
+
+.newsletter-section-content-img-2 {
+  width: 150px;
+  height: 150px;
+  z-index: 10;
+}
+.explore-header-section-input-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.explore-header-section-input {
+  width: 40%;
+  padding: 20px 50px 20px 10px;
+  text-emphasis: start;
+  background-color: #f9fbfb;
+  border-style: none;
+  font-family: "Muli Light";
+  font-size: 18px;
+}
+
+.subscribe-btn {
+  padding: 20px 50px 20px 30px;
+  background-color: #f98169;
+  color: #ffffff;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  text-decoration: none;
+  font-family: "Muli";
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 10px 150px;
+  margin-left: auto;
+  border-width: 1px;
+  border-color: red;
+  
+}
+
+.footer-menu-link {
+  text-decoration: none;
+  color: #abadae;
+  font-family: "Muli";
+  padding: 10px;
+  
+}
+
+.footer-brand {
+  font-size: 36px;
+  font-family: "painter";
+  color: #452268;
+  margin-left: 90px;
+}
+
+.footer-menu {
+  font-size: 12px;
+  color: #452268;
+  align-self: center;
+  margin-left: 10em;
+}
