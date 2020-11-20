@@ -31,11 +31,11 @@ function App() {
                 <img src={images.ABOUT} alt="" className="content-img-1" />
               </div>
               <div>
-                <p >
+                <p className="more-text-1">
                   The best comfort food will always be greens, cornbread, and
                   fried chicken.
                 </p>
-                <p>
+                <p className="more-text-2">
                   Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
                   diam nonumy eirmod tempor invidunt ut labore et dolore magna
                   aliquyam erat, sed diam voluptua. At vero eos et accusam et
