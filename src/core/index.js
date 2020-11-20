@@ -1,3 +1,4 @@
+import jumboImage from '../assets/images/jumbo-image.png';
 const PATH = '../assets/images/';
 
 export const images = {
@@ -14,4 +15,5 @@ export const images = {
   EXPLOREFOUR: require('../assets/images/explore-4.png'),
   EXPLOREFIVE: require('../assets/images/explore-5.png'),
   EXPLORESIX: require('../assets/images/explore-6.png'),
+  jumboImage,
 }
