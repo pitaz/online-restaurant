@@ -1,5 +1,4 @@
 import jumboImage from '../assets/images/jumbo-image.png';
-const PATH = '../assets/images/';
 
 export const images = {
   // Login

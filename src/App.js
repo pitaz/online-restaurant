@@ -1,6 +1,4 @@
 import React from "react";
-import jumboImage from "./assets/images/jumbo-image.png";
-import recipeOne from "./assets/images/recipe-1.png";
 import NavBar from "./components/Navbar";
 import { images } from "./core";
 import Footer from "./components/Footer";
